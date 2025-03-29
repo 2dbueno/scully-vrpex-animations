@@ -88,6 +88,28 @@ return {
         },
     },
     {
+        Label = 'prebeber5',
+        Command = 'prebeber5',
+        Animation = 'ped_a_enter_loop',
+        Dictionary = 'anim@heists@humane_labs@finale@keycards',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'prop_champ_flute',
+                    Placement = {
+                        vector3(0.100000, -0.030000, 0.030000),
+                        vector3(-100.000000, 0.000000, -10.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
         Label = 'Burger Shot Cafe',
         Command = 'bscafe',
         Animation = 'loop_bottle',
@@ -634,21 +656,21 @@ return {
         },
     },
     {
-        Label = "beber10",
-        Command = "beber10",
-        Animation = "idle_c",
-        Dictionary = "amb@world_human_drinking@coffee@male@idle_a",
+        Label = 'beber10',
+        Command = 'beber10',
+        Animation = 'idle_c',
+        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
         Options = {
             Flags = {
-                Move = false,
-                Loop = false,
+                Loop = true,
+                Move = true,
             },
             Props = {
                 {
                     Bone = 28422,
-                    Name = "ng_proc_sodacan_01b",
+                    Name = 'scully_boba',
                     Placement = {
-                        vector3(-0.010000, -0.080000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
                         vector3(0.000000, 0.000000, 0.000000),
                     },
                 },
@@ -668,7 +690,7 @@ return {
             Props = {
                 {
                     Bone = 28422,
-                    Name = 'scully_boba',
+                    Name = 'scully_boba2',
                     Placement = {
                         vector3(0.000000, 0.000000, 0.000000),
                         vector3(0.000000, 0.000000, 0.000000),
@@ -690,7 +712,7 @@ return {
             Props = {
                 {
                     Bone = 28422,
-                    Name = 'scully_boba2',
+                    Name = 'scully_boba3',
                     Placement = {
                         vector3(0.000000, 0.000000, 0.000000),
                         vector3(0.000000, 0.000000, 0.000000),
@@ -702,28 +724,6 @@ return {
     {
         Label = 'beber13',
         Command = 'beber13',
-        Animation = 'idle_c',
-        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 28422,
-                    Name = 'scully_boba3',
-                    Placement = {
-                        vector3(0.000000, 0.000000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'beber14',
-        Command = 'beber14',
         Animation = 'loop_bottle',
         Dictionary = 'mp_player_intdrink',
         Options = {
@@ -744,6 +744,28 @@ return {
         },
     },
     {
+        Label = 'beber14',
+        Command = 'beber14',
+        Animation = 'loop_bottle',
+        Dictionary = 'mp_player_intdrink',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'prop_beer_amopen',
+                    Placement = {
+                        vector3(0.030000, -0.180000, 0.100000),
+                        vector3(240.000000, -60.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
         Label = 'beber15',
         Command = 'beber15',
         Animation = 'loop_bottle',
@@ -756,7 +778,7 @@ return {
             Props = {
                 {
                     Bone = 18905,
-                    Name = 'prop_beer_amopen',
+                    Name = 'prop_beer_pissh',
                     Placement = {
                         vector3(0.030000, -0.180000, 0.100000),
                         vector3(240.000000, -60.000000, 0.000000),
@@ -778,9 +800,9 @@ return {
             Props = {
                 {
                     Bone = 18905,
-                    Name = 'prop_beer_pissh',
+                    Name = 'prop_bottle_brandy',
                     Placement = {
-                        vector3(0.030000, -0.180000, 0.100000),
+                        vector3(0.000000, -0.260000, 0.100000),
                         vector3(240.000000, -60.000000, 0.000000),
                     },
                 },
@@ -800,28 +822,6 @@ return {
             Props = {
                 {
                     Bone = 18905,
-                    Name = 'prop_bottle_brandy',
-                    Placement = {
-                        vector3(0.000000, -0.260000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'beber18',
-        Command = 'beber18',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
                     Name = 'prop_ecola_can',
                     Placement = {
                         vector3(0.120000, 0.008000, 0.030000),
@@ -831,6 +831,28 @@ return {
             },
         },
     },
+    {
+        Label = 'beber18',
+        Command = 'beber18',
+        Animation = 'idle_c',
+        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_ecola_can',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.000000),
+                        vector3(0.000000, 0.000000, 130.000000),
+                    },
+                },
+            },
+        },
+    }, 
     {
         Label = 'Vinho tinto',
         Command = 'beber19',
@@ -964,8 +986,73 @@ return {
         },
     },
     {
+        Label = 'Whiskey Bottle',
+        Command = 'beber25',
+        Animation = 'idle_a',
+        Dictionary = 'amb@world_human_drinking@beer@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'ba_prop_battle_whiskey_bottle_2_s',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.050000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Whiskey Bottle 2',
+        Command = 'beber26',
+        Animation = 'idle_a',
+        Dictionary = 'amb@world_human_drinking@beer@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'ba_prop_battle_whiskey_bottle_2_s',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.050000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Whiskey Bottle 3',
+        Command = 'beber27',
+        Animation = 'idle_a',
+        Dictionary = 'amb@world_human_drinking@beer@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'ba_prop_battle_whiskey_bottle_2_s',
+                    Placement = {
+                        vector3(0.000000, 0.000000, 0.050000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
         Label = 'Whiskey',
-        Command = 'whiskey',
+        Command = 'beber28',
         Animation = 'loop_bottle',
         Dictionary = 'mp_player_intdrink',
         Options = {
@@ -980,6 +1067,202 @@ return {
                     Placement = {
                         vector3(0.000000, 0.000000, 0.000000),
                         vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Whiskey 2',
+        Command = 'beber29',
+        Animation = 'idle_c',
+        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_drink_whisky',
+                    Placement = {
+                        vector3(0.010000, -0.010000, -0.060000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Wine',
+        Command = 'beber30',
+        Animation = 'ped_a_enter_loop',
+        Dictionary = 'anim@heists@humane_labs@finale@keycards',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'prop_drink_redwine',
+                    Placement = {
+                        vector3(0.100000, -0.030000, 0.030000),
+                        vector3(-100.000000, 0.000000, -10.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Wine 2 - Bottle',
+        Command = 'beber31',
+        Animation = 'idle_e',
+        Dictionary = 'amb@world_human_drinking@beer@female@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_wine_rose',
+                    Placement = {
+                        vector3(-0.000000, 0.040000, -0.190000),
+                        vector3(10.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Wine 3 - Bottle',
+        Command = 'beber32',
+        Animation = 'idle_e',
+        Dictionary = 'amb@world_human_drinking@beer@female@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_wine_rose',
+                    Placement = {
+                        vector3(-0.000000, 0.040000, -0.190000),
+                        vector3(10.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Beber 33',
+        Command = 'beber33',
+        Animation = 'base',
+        Dictionary = 'amb@world_human_strip_watch_stand@male_c@base',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 60309,
+                    Name = 'prop_beer_am',
+                    Placement = {
+                        vector3(0.088000, -0.136000, 0.145000),
+                        vector3(-102.962402, 81.709801, -39.273399),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Beber 34',
+        Command = 'beber34',
+        Animation = 'idle_c',
+        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 57005,
+                    Name = 'bzzz_pizzahut_cup_a',
+                    Placement = {
+                        vector3(0.14, 0.01, -0.04),
+                        vector3(-83.0, 2.0, -36.0),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Cerveja Feminina',
+        Command = 'beber35',
+        Animation = 'idle_a',
+        Dictionary = 'amb@world_human_drinking@beer@female@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_amb_beer_bottle',
+                    Placement = {
+                        vector3(0.000000, -0.000000, 0.050000),
+                        vector3(15.000000, 15.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Cerveja Feminina 2',
+        Command = 'beber36',
+        Animation = 'idle_a',
+        Dictionary = 'amb@world_human_drinking@beer@female@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_amb_beer_bottle',
+                    Placement = {
+                        vector3(0.000000, -0.000000, 0.050000),
+                        vector3(15.000000, 15.000000, 0.000000),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Agua',
+        Command = 'agua',
+        Animation = 'idle_c',
+        Dictionary = 'amb@world_human_drinking@coffee@male@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'ba_prop_club_water_bottle',
+                    Placement = {
+                        vector3(0.000000, 0.000000, -0.090000),
+                        vector3(0.000000, 0.000000, 130.000000),
                     },
                 },
             },
